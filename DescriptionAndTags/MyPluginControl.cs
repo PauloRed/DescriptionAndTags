@@ -457,8 +457,9 @@ namespace DescriptionAndTags
                     string[] Tags = GetTagsFromCSVRecord(rec);
                     if (!FileEntitySet.entities.ContainsKey(rec.EntityLogicalName))
                     {
-                        FileEntitySet.AddEntity(rec.EntityLogicalName, rec.EntitySchemaName, rec.EntityDescription, rec.LanguageCode,new SortedDictionary<string, clOneAttribute>(),Tags);
-                   
+                        FileEntitySet.AddEntity(rec.EntityLogicalName, rec.EntitySchemaName, rec.EntityDescription, rec.LanguageCode, new SortedDictionary<string, clOneAttribute>(), Tags);
+
+                    }
                     else if (rec.RowType == "Entity")
                     {
                         FileEntitySet.entities[rec.EntityLogicalName].schemaName = rec.EntitySchemaName;

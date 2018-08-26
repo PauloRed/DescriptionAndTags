@@ -132,6 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="DescriptionAndTagsManual.docx" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
