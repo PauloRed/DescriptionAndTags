@@ -16,6 +16,8 @@ namespace DescriptionAndTags
         ExportMetadata("BackgroundColor", "Lavender"),
         ExportMetadata("PrimaryFontColor", "Black"),
         ExportMetadata("SecondaryFontColor", "Gray")]
+    //Test
+    
     public class MyPlugin : PluginBase
     {
         public override IXrmToolBoxPluginControl GetControl()
