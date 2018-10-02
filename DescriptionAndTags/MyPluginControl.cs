@@ -286,7 +286,7 @@ namespace DescriptionAndTags
         {
             LogInfo("Reading CRM metadata from CRM");
             CRMEntitySet = new clEntities(); //initialise
-            string[] Tags= null;
+            string[] Tags = { "", "", "", "", "", "", "", "", "", "" };
 
             RetrieveAllEntitiesRequest request = new RetrieveAllEntitiesRequest()
             {
