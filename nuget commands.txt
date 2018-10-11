@@ -2,5 +2,5 @@ Rem API Key: oy2hnoy7bt4eznl2tf2aydbn4f5ruhhudkmvbxjeetquoq
 
 c:\utils\NuGet.exe pack -Prop Configuration=Release "C:\General\MSCRM\XrmToolbox\New Plugins\DescriptionAndTags\DescriptionAndTags.nuspec" -OutputDirectory "C:\General\MSCRM\XrmToolbox\New Plugins\DescriptionAndTags"
 
-c:\utils\nuget push "C:\General\MSCRM\XrmToolbox\New Plugins\DescriptionAndTags\DescriptionAndTags.1.2018.1.6.nupkg" -ApiKey oy2hnoy7bt4eznl2tf2aydbn4f5ruhhudkmvbxjeetquoq -Source https://api.nuget.org/v3/index.json
+c:\utils\nuget push "C:\General\MSCRM\XrmToolbox\New Plugins\DescriptionAndTags\DescriptionAndTags.1.2018.1.8.nupkg" -ApiKey oy2hnoy7bt4eznl2tf2aydbn4f5ruhhudkmvbxjeetquoq -Source https://api.nuget.org/v3/index.json
 
