@@ -2,15 +2,15 @@
 <package >
   <metadata>
     <id>DescriptionAndTags</id>
-    <version>1.2018.1.5</version>
+    <version>1.2018.1.7</version>
     <title>Description and Tags</title>
     <authors>Paul Redstone, Clew Consulting</authors>  
     <owners>Clew Consulting</owners>
     <projectUrl>https://github.com/PauloRed/DescriptionAndTags</projectUrl>
 	<iconUrl>http://www.clew-consulting.com/Brochures/XRMToolbox6464.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>XRMToolbox plugin to allow export and import of descriptions and tags for entities and attirbutes (fields)</description>
-    <releaseNotes>Modified name to remove mention of XRMToolbox as looked wrong in plugin list! Also fixed package configure issues</releaseNotes>
+    <description>XRMToolbox plugin to allow export and import of descriptions and tags for entities and attributes (fields)</description>
+    <releaseNotes>Updated version numbers to align</releaseNotes>
     <copyright>Copyright 2018 Clew Consulting Limited</copyright>
     <tags>XRMToolbox Plugin</tags>
   </metadata>
