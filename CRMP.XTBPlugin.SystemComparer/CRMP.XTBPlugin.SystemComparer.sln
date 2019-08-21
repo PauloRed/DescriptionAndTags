@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMP.XTBPlugin.SystemComparer", "CRMP.XTBPlugin.SystemComparer.csproj", "{1B387188-785D-424E-96BC-EEA975899EBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseWithPublish|Any CPU = ReleaseWithPublish|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B387188-785D-424E-96BC-EEA975899EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B387188-785D-424E-96BC-EEA975899EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B387188-785D-424E-96BC-EEA975899EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B387188-785D-424E-96BC-EEA975899EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B387188-785D-424E-96BC-EEA975899EBC}.ReleaseWithPublish|Any CPU.ActiveCfg = ReleaseWithPublish|Any CPU
+		{1B387188-785D-424E-96BC-EEA975899EBC}.ReleaseWithPublish|Any CPU.Build.0 = ReleaseWithPublish|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C042EC60-6715-4AF9-8AE4-8C54335EAAD7}
+	EndGlobalSection
+EndGlobal

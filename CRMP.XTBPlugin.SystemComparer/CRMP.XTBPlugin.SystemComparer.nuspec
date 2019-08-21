@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CRMP.XTBPlugin.SystemComparer</id>
+    <version>$version$</version>
+    <title>System Customization Comparer</title>
+    <authors>Lars Müller, CRM Partners AG</authors>
+    <owners>Lars Müller, CRM Partners AG</owners>
+    <licenseUrl>https://github.com/iggsn/XTBPlugin.SystemComparerer/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/iggsn/XTBPlugin.SystemComparerer</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/iggsn/XTBPlugin.SystemComparerer/master/Logos/nuget_logo_64.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is an XrmToolBox Plugin to compare two CRM Organizations for differences.</description>
+    <releaseNotes>
+      These are the included main changes
+      1.2018.4.29: intial release to compare entity metadata.
+      1.2018.5.18: added icons and basic logging
+      1.2018.5.25: aligned file version number and downgraded NewtonSoft.Json to fit XrmToolBox
+                   added optional telemetry
+                   fixed false positives with MetadataId
+      1.2018.12.2: Updated to latest XrmToolBox version
+                   UI changes (icons)
+                   Added views and forms (beta)
+                   fixed issue in comparison of OptionSets (now using Value)
+    </releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>XrmToolBox Plugins SystemComparer</tags>
+    <dependencies>
+      <dependency id="XrmToolBox" version="1.2018.6.25" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Merged\CRMP.XTBPlugin.*.dll" target="lib\net462\Plugins" />
+  </files>
+</package>

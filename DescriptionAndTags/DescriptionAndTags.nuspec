@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>DescriptionAndTags</id>
-    <version>1.2018.1.8</version>
+    <version>1.2018.1.9</version>
     <title>Description and Tags</title>
     <authors>Paul Redstone, Clew Consulting</authors>  
     <owners>Clew Consulting</owners>
@@ -13,6 +13,9 @@
     <releaseNotes>Updated version numbers to align</releaseNotes>
     <copyright>Copyright 2018 Clew Consulting Limited</copyright>
     <tags>XRMToolbox Plugin</tags>
+    <dependencies>
+      <dependency id="XrmToolBox" version="1.2018.7.28" />
+    </dependencies>	
   </metadata>
   <files>
    <file src="C:\General\MSCRM\XrmToolbox\New Plugins\DescriptionAndTags\DescriptionAndTags.dll" target="lib\net452\Plugins" />
